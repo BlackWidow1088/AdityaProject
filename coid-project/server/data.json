@@ -1,0 +1,28 @@
+{
+    
+        "hospitals": [
+            {
+                "uid": "992551c45f28433ed8f93ca31a554b3c",
+                "name": "Kokilaben",
+                "covidCapacity": 10,
+                "nonCovidCapacity": 20,
+                "activeCovidPatients": 0,
+                "activeNonCovidPatients": 0,
+                "covidTotalCases": 0,
+                "nonCovidTotalCases": 0,
+                "addedDate": "Tue Dec 15 2020 11:50:01 GMT+0530 (India Standard Time)"
+            },
+            {
+                "uid": "92551c45f28433ed8f93ca31a554b3cc",
+                "name": "Cooper",
+                "covidCapacity": 10,
+                "nonCovidCapacity": 20,
+                "activeCovidPatients": 0,
+                "activeNonCovidPatients": 0,
+                "covidTotalCases": 0,
+                "nonCovidTotalCases": 0,
+                "addedDate": "Tue Dec 15 2020 11:50:01 GMT+0530 (India Standard Time)"
+            }
+        ]
+    
+}

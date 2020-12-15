@@ -1,0 +1,78 @@
+.HospitalGridContainer {
+    
+    .MuiPaper-root {
+       // background-color: var(--gray-1) !important;
+       // max-height: 350px !important;
+    }
+    .MuiTableRow-head {
+        background-color: var(--gray-1) !important;
+    }
+
+    .MuiTableHead-root {
+        background-color: var(--gray-1) !important;
+        height: 50px;
+    }
+    .MuiTable-root {
+        background-color: var(--gray-1) !important;
+        font-family: "Open Sans" !important;
+        thead > tr {
+            background-color: var(--black) !important;
+            height: 25px !important;
+        }
+        td {
+            font-family: "Open Sans" !important;
+        }
+    }
+
+    .report-cell {
+        color: var(--deep-sky-blue);
+        // width: 300px;
+        cursor: pointer;
+    }
+    .left-value {
+        text-align: left !important;
+    }
+    .severity-error {
+        border-radius: 25px;
+        margin-left: 10px;
+        border-left: 5px solid var(--coral);
+    }
+    .center-value {
+        text-align: center !important;
+    }
+    .severity-normal {
+        border-radius: 25px;
+        margin-left: 10px;
+        border-left: 5px solid var(--deep-sky-blue);
+    }
+    .severity-warning {
+        border-radius: 25px;
+        margin-left: 10px;
+        border-left: 5px solid var(--tangerine);
+    }
+    tr:nth-child(even) {
+        background-color: var(--black-two) !important;
+    }
+    tr:nth-child(odd) {
+        background-color: var(--black) !important;
+    }
+
+    .center-value-1{
+        // width: 250px;
+        &.greater-value {
+            color: var(--tangerine);
+        }
+    }
+    .center-value-2{
+        // width: 200px;
+        &.greater-value {
+            color: var(--tangerine);
+        }
+    }
+    .center-value-3{
+        // width: 100px;
+        &.greater-value {
+            color: var(--tangerine);
+        }
+    }
+}

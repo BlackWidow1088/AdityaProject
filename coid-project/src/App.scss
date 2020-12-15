@@ -1,0 +1,106 @@
+
+.App {
+  text-align: center;
+  background-color: #4a4a4a;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.modal {
+  color: white;
+  z-index: 9000;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.modal-header {
+  background: #333333; // old #002f6a;
+  height: 30px;
+  border-bottom: 1px solid #4c4c4c !important;
+
+  .close {
+      margin-top: -15px;
+  }
+}
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+  background: #222222;
+
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-footer {
+  border-top: 0;
+  background: #222222;
+}
+
+.modal-title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  margin-top: 5px;
+}
+
+.app-form-controls-container {
+  .Input{
+  margin-bottom: 16px;
+  .form-control:focus {
+      border: none;
+      overflow: auto;
+      outline: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      resize: none;
+  }
+}
+.Input:focus-within {
+  border: 1px solid var(--deep-sky-blue);
+}
+.input-group-text{
+  border: none;
+  height: 35px;
+  background-color: #424243;
+  color: #999999;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-right: 0px;
+}
+.form-control{
+  border: none;
+  background-color: #424243;
+  height: 35.5px;
+  color: #fefefe;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+&.dark {
+  .Input{
+      margin-bottom: 0px;
+  }
+  .input-group-text {
+  background-color: var(--gray-1);
+  font-size: 12px;
+  }
+  .form-control {
+      background-color: var(--gray-1); 
+      font-size: 12px;
+  }
+}
+}
